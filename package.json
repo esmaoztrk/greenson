@@ -1,0 +1,14 @@
+{
+  "name": "greenbf",
+  "version": "2.0",
+  "private": true,
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "concurrently": "latest",
+    "cors": "^2.8.5",
+    "vite": "^5.3.1"
+  },
+  "scripts": {
+    "start": "npm install && concurrently \"cd ./greenbackend && npm install && npm start\" \"cd ./greenfrontend && npm install && npm run dev\""
+  }
+}
